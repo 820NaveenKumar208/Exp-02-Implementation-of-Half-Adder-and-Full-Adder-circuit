@@ -19,7 +19,7 @@ Sum = A’B+AB’ =A ⊕ B Carry = AB
 #### Figure -01 HALF ADDER 
 
 # Program:
-module de3hafeez(a,b,sum,carry);
+``module de3hafeez(a,b,sum,carry);
 input a,b;
 output sum,carry;
 xor(sum,a,b);
