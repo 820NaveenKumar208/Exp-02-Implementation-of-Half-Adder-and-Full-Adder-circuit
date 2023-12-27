@@ -19,7 +19,7 @@ Sum = A’B+AB’ =A ⊕ B Carry = AB
 #### Figure -01 HALF ADDER 
 
 # Program:
-module de3hafeez(a,b,sum,carry);
+module Half Adder(a,b,sum,carry);
 input a,b;
 output sum,carry;
 xor(sum,a,b);
@@ -58,12 +58,12 @@ If the output is 1, then the led glows.
 
 ### Program:
 
-`module de3_1(a,b,c,sum,carry);
+module de3_1(a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
 xor(sum,a,b,c);
 assign carry=a&b|b&c|a&c;
-endmodule`
+endmodule
 
 # Truth Table:
 
