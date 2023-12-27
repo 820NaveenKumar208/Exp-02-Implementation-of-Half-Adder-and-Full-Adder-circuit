@@ -19,12 +19,16 @@ Sum = A’B+AB’ =A ⊕ B Carry = AB
 #### Figure -01 HALF ADDER 
 
 # Program:
-module Half Adder(a,b,sum,carry);
+Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
+
+
+module HalfAdder(a,b,sum,carry);
 input a,b;
 output sum,carry;
 xor(sum,a,b);
 and(carry,a,b);
-endmodule 
+endmodule
+
 
 # RTL Realization:
 
