@@ -2,7 +2,7 @@
 # Developed by: Naveen Kumar.T 
 # RegisterNumber: 23002899
 # Implementation-of-Half-Adder-and-Full-Adder-circuit
-### AIM:
+### Aim:
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
 
 ### Equipments Required:
@@ -20,11 +20,11 @@ Sum = A’B+AB’ =A ⊕ B Carry = AB
 
 # Program:
 module de3hafeez(a,b,sum,carry);
-   input a,b;
-   output sum,carry;
-   xor(sum,a,b);
-   and(carry,a,b);
-   endmodule
+input a,b;
+output sum,carry;
+xor(sum,a,b);
+and(carry,a,b);
+endmodule
 
 ### RTL Realization:
 
@@ -58,12 +58,12 @@ If the output is 1, then the led glows.
 
 ### Program:
 
-``module de3_1(a,b,c,sum,carry);
+`module de3_1(a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
 xor(sum,a,b,c);
 assign carry=a&b|b&c|a&c;
-endmodule``
+endmodule`
 
 # Truth Table:
 
