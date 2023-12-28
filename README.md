@@ -63,12 +63,12 @@ If the output is 1, then the led glows.
 
 # Program:
 
-``module Full Adder(a,b,c,sum,carry);
-  input a,b,c;
-  output sum,carry;
-  xor(sum,a,b,c);
-  assign carry=a&b|b&c|a&c;
-  endmodule``
+`                module Full Adder(a,b,c,sum,carry);
+                  input a,b,c;
+                  output sum,carry;
+                  xor(sum,a,b,c);
+                  assign carry=a&b|b&c|a&c;
+                  endmodule              `
 
 # Truth Table:
 
