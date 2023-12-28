@@ -1,6 +1,6 @@
 # Exp-03-Implementation-of-Half-Adder-and-Full-Adder-circuit
 # Developed by: Naveen Kumar.T 
-# RegisterNumber: 23002899
+# Reference Number: 23002899
 # Implementation-of-Half-Adder-and-Full-Adder-circuit
 ### Aim:
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
