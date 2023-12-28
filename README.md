@@ -1,4 +1,4 @@
-# Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
+# Exp-03-Implementation-of-Half-Adder-and-Full-Adder-circuit
 # Developed by: Naveen Kumar.T 
 # RegisterNumber: 23002899
 # Implementation-of-Half-Adder-and-Full-Adder-circuit
@@ -28,6 +28,7 @@ Program to design a half adder and full adder circuit and verify its truth table
                                          xor(sum,a,b);
                                          and(carry,a,b);
                                          endmodule
+
 
 
 # RTL Realization:
